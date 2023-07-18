@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link ref="stylesheet" href="style.css">
+    <title>Elia's homepage</title>
+    <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
 </head>
+
 <body>
-    
+    <header>
+        <div id="current_date">
+            </p>
+            <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+            </script>
+    </header>
+    <nav>
+        <ul>
+            <li><img class="profile-pic" src='profile-pic.png'></li>
+            <li class = "button">Home</li>
+            <li class = "button">About</li>
+            <li class = "button">Portfolio</li>
+        </ul>
+        <div class="card">
+            <img class="profile" />
+            <div>
+                <div class="name">Elia Lee, <script>document.write(age)</script>y
+                </div>
+                <div class="job">Current mathematics and music teacher, future web developer</div>
+                <div class="important">Faith, family, music</div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <h2> Welcome to my homepage! </h2>
+    </section>
+    <section>
+
+    </section>
+    <section class="key_verse">
+        And we know that in all things God <br> works for the good of those who love him, <br> who have been called
+        according to his purpose. <br>
+        &lt; Romans 8:28 &gt;
+    </section>
+
 </body>
+
 </html>
