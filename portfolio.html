@@ -7,13 +7,27 @@
     <title>Elia's homepage</title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
 </head>
 
 <body>
     <header>
         <div id="current_date">
             </p>
-            <script>
+            <script class="myage">
                 date = new Date();
                 year = date.getFullYear();
                 month = date.getMonth() + 1;
@@ -24,7 +38,7 @@
     <nav>
         <ul>
             <li><img class="profile-pic" src='profile-pic.png'></li>
-            <li class="button"><a href="#">Home</a></li>
+            <li class="button"><a href="index.html">Home</a></li>
             <li class="button"><a href="about.html">About</a></li>
             <li class="button"><a href="portfolio.html">Portfolio</a></li>
         </ul>
@@ -39,17 +53,83 @@
             </div>
         </div>
     </nav>
-    <section>
-        <h2> Welcome to my homepage! </h2>
-    </section>
-    <section>
 
+    <section>
+        <h2>Portfolio</h2>
+        <div id="services" class="section lb">
+            <div class="container">
+                <div class="section-title text-center">
+
+                </div><!-- end title -->
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="services-inner-box">
+                            <div class="ser-icon">
+                                <i class="flaticon-idea-1"></i>
+                            </div>
+                            <h2>Graphic Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-md-4">
+                        <div class="services-inner-box">
+                            <div class="ser-icon">
+                                <i class="flaticon-discuss-issue"></i>
+                            </div>
+                            <h2>Support</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-md-4">
+                        <div class="services-inner-box">
+                            <div class="ser-icon">
+                                <i class="flaticon-idea"></i>
+                            </div>
+                            <h2>Web Idea</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-md-4">
+                        <div class="services-inner-box">
+                            <div class="ser-icon">
+                                <i class="flaticon-seo"></i>
+                            </div>
+                            <h2>Web Development</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-md-4">
+                        <div class="services-inner-box">
+                            <div class="ser-icon">
+                                <i class="flaticon-development"></i>
+                            </div>
+                            <h2>Responsive Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-md-4">
+                        <div class="services-inner-box">
+                            <div class="ser-icon">
+                                <i class="flaticon-process"></i>
+                            </div>
+                            <h2>Creative Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end section -->
     </section>
-    <section class="key_verse">
-        And we know that in all things God <br> works for the good of those who love him, <br> who have been called
-        according to his purpose. <br>
-        &lt; Romans 8:28 &gt;
-    </section>
+
+
+
 
 </body>
 
