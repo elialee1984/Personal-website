@@ -92,7 +92,7 @@ Portfolio
 .services-inner-box::before {
     content: "";
     position: absolute;
-    background: #faad3b;
+    background: #56ed9c;
     width: 0;
     height: 0;
     top: 50%;
@@ -183,4 +183,10 @@ Portfolio
 section > h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+}
+
+.imgPor {
+    align-items: center;
+    width: 30px;
+    margin-top: -20px;
 }
